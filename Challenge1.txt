@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    char nom[50];
+    char prenom[50];
+    int age;
+    char sexe[10];
+    char email[100];
+    printf("Veuillez entrer votre nom:\n");
+    scanf("%s", &nom);
+    printf("Veuillez entrer votre prenom:\n");
+    scanf("%s", &prenom);
+    printf("Veuillez entrer votre age:\n");
+    scanf("%d", &age);
+    printf("Veuillez entrer votre sexeH/F:\n");
+    scanf("%s", &sexe);
+    printf("Veuillez entrer votre adresse email:\n\n");
+    scanf("%s", &email);
+    printf("Vos informations personnelles:\n\n");
+    printf("Nom: %s\n\n", nom);
+    printf("Age: %d\n\n", age);
+    printf("Sexe: %s\n\n", sexe);
+    printf("Email: %s\n\n", email);
+    return 0;
+}

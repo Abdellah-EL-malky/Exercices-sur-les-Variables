@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int L,l;
+    int surface;
+    printf("Veuillez saisir la longueur du rectangle:\n");
+    scanf("%d",&L);
+    printf("Veuillez saisir la largeur du rectangle:\n");
+    scanf("%d",&l);
+    surface=L*l;
+    printf("La surface du rectangle est:%d\n",surface);
+    return 0;
+
+}

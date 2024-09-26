@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    double km_p_h;
+    double  m_p_s;
+    printf("Entrer la vitesse en kilometres par heure : ");
+    scanf("%lf", &km_p_h);
+    m_p_s = km_p_h * 0.27778;
+    printf("Vitesse = %.2lf metre par seconde", m_p_s);
+    return 0;
+}

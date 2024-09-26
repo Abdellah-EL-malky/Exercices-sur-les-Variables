@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void) {
+    int a, b, c, d, e, f;
+    printf("Veuillez entrer une valeur a:\n");
+    scanf("%d", &a);
+    printf("Veuillez entrer une valeur b:\n");
+    scanf("%d", &b);
+    c = a + b;
+    d = a - b;
+    e = a * b;
+    f = a / b;
+    printf("L'addition des deux valeurs est: %d\n", c);
+    printf("La soustraction des deux valeurs est: %d\n", d);
+    printf("La multiplication des deux valeurs est: %d\n", e);
+    printf("La division des deux valeurs est: %d\n", f);
+    return 0;
+}

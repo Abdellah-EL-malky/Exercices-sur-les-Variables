@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int nombre;
+    int i;
+
+    printf("Entrez un nombre entier : ");
+    scanf("%d", &nombre);
+    printf("Valeur en hexadecimal : %X\n", nombre);
+    printf("Valeur en binaire : ");
+    for (i = 31; i >= 0; i--) {
+        printf("%d", (nombre >> i) & 1);
+        if (i % 4 == 0) {
+            printf(" ");
+        }
+    }
+    printf("\n");
+
+    return 0;
+}

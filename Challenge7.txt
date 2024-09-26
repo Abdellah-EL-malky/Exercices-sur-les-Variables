@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+
+    float nombre1, nombre2, nombre3;
+    float moyenne;
+    printf("Entrez le premier nombre : ");
+    scanf("%f", &nombre1);
+    printf("Entrez le deuxième nombre : ");
+    scanf("%f", &nombre2);
+    printf("Entrez le troisième nombre : ");
+    scanf("%f", &nombre3);
+    moyenne = ((nombre1 * 2) + (nombre2 * 3) + (nombre3 * 5)) / (2 + 3 + 5);
+    printf("La moyenne pondérée est : %.2f\n", moyenne);
+
+    return 0;
+}

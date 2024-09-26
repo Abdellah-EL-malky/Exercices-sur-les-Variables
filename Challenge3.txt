@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    double Km;
+    double Yards;
+    printf("Entrer la distance en Km: ");
+    scanf("%lf", &Km);
+    Yards = Km * 1093.61;
+    printf("Distance = %.2f Yards", Yards);
+    return 0;
+}

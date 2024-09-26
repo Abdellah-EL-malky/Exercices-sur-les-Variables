@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int c;
+    printf("Entrer la temperature de l'eau: ");
+    scanf("%d", &c);
+    if (c < 0) {
+        printf("L'eau est a l'etat solide\n");
+    } else if (0 <= c == 100) {
+        printf("L'eau est a l'etat liquide\n");
+    } else if (c > 100) {
+        printf("L'eau est a l'etat gazeux\n");
+    }
+
+    return 0;
+}

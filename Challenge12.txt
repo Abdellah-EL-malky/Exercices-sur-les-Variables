@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    int suite, nombre;
+    printf("Entrez une suite de quatre chiffres:");
+    scanf("%d", &nombre);
+    if (nombre < 1000 || nombre > 9999) {
+        printf("Erreur! Vous devez entrer un nombre entier de exactement quatre chiffres.\n");
+        return 1;
+    }
+    suite = (nombre%10)*1000+((nombre/10)%10)*100+((nombre/100)%10)*10+(nombre/1000);
+    printf("L'inverse de la suite est: %d", suite);
+    return 0;
+}
